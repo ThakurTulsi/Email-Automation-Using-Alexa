@@ -32,11 +32,11 @@ def engine_talk(text):
 # engine.say("How can I help you?")
 # engine.runAndWait()
 
-# ee4272707527e87556df04f6ae96e168
+
 
 def weather(city):
     # Enter your API Key here
-    api_key = "ee4272707527e87556df04f6ae96e168"
+    api_key = "insert-your-api-key"
 
     # base_url variable to store url
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
@@ -110,23 +110,23 @@ def user_commands():
 def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587) #smtp.gmail.com is server name and 587 is port number like a door
     server.starttls() #tls means transport layer security
-    server.login('testpurpose088@gmail.com', 'gyfuobzbreivvxqf')
+    server.login('abc@gmail.com', 'your-passkey')
     email = EmailMessage()
-    email['From'] = 'demopurpose045@gmail.com'
+    email['From'] = 'abc@gmail.com'
     email['To'] = receiver
     email['Subject'] = subject
     email.set_content(message)
     server.send_message(email)
-    # server.sendmail('demopurpose045@gmail.com', , 'Hey there! Make sure you join the meeting tomorrow. Thanks')
+    # server.sendmail('abc@gmail.com', , 'Hey there! Make sure you join the meeting tomorrow. Thanks')
 
 
 email_list = { 
-    'myself':'tulsithakur478@gmail.com',
-    'team':'tulsithakur1729@gmail.com',
-    'classmate':'thakurtulsi08@gmail.com',
-    'sister':'ruschool4@gmail.com', 
-    'manager': 'tulsithakur1729@gmail.com',
-    'test': 'testpurpose088@gmail.com'
+    'myself':'abc@gmail.com',
+    'team':'def@gmail.com',
+    'classmate':'ghi@gmail.com',
+    'sister':'jkl@gmail.com', 
+    'manager': 'mno@gmail.com',
+    'test': 'pqr@gmail.com'
 }
 
 
@@ -200,7 +200,7 @@ def run_alexa():
 
     else:
         engine_talk('Sorry, I could not hear you properly')
-        # engine_talk(' ')
+       
 
 
 while True:
