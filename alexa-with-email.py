@@ -28,11 +28,6 @@ voices = engine.setProperty('voice', voices[1].id)
 def engine_talk(text):
     engine.say(text)
     engine.runAndWait()
-# engine.say("I am your bot")
-# engine.say("How can I help you?")
-# engine.runAndWait()
-
-
 
 def weather(city):
     # Enter your API Key here
