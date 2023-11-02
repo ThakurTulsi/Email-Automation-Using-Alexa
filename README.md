@@ -17,13 +17,13 @@ A voice assistant program written in Python that allows you to interact with you
 
 ## Features
 
-- **Voice Commands**: Interact with your computer using voice commands.
-- **Play Music**: Play music from YouTube using voice commands.
-- **Get Weather**: Ask for the current weather in your city.
-- **Send Emails**: Send emails to your contacts using voice commands.
-- **Answer Questions**: Get answers to questions from Wikipedia.
-- **Jokes**: Ask for a joke and the assistant will tell you one.
-- **Exit**: End the voice assistant program using a voice command.
+- Voice Commands: Interact with your computer using voice commands.
+- Play Music: Play music from YouTube using voice commands.
+- Get Weather: Ask for the current weather in your city.
+- Send Emails: Send emails to your contacts using voice commands.
+- Answer Questions: Get answers to questions from Wikipedia.
+- Jokes: Ask for a joke and the assistant will tell you one.
+- Exit: End the voice assistant program using a voice command.
 
 ## Prerequisites
 
